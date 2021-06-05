@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     //Shutter button
     private let shutterButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        button.layer.cornerRadius = 100
+        button.layer.cornerRadius = 50
         button.layer.borderWidth = 10
         button.layer.borderColor = UIColor.white.cgColor
         return button
